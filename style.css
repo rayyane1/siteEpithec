@@ -1,0 +1,27 @@
+body{
+margin: 0;
+}
+.lien{
+color: white;
+text-decoration: none;
+font-weight: 500;
+transition: all .3s ease-in-out;
+}
+nav{
+background-color: hsla(4, 100%, 62%, 1);
+display: flex;
+padding: 16px;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: calc(100% - 48px);
+top: 16px;
+left: 16px;
+border-radius: 32px;
+margin-left: -7px;
+}
+.menu{
+margin: 10px;
+display: flex;
+gap: 30px;
+}
